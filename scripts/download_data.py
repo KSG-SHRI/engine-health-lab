@@ -5,7 +5,7 @@ import urllib.request
 import zipfile
 from pathlib import Path
 
-URL = "https://phm-datasets.s3.amazonaws.com/NASA/6.+Turbofan+Engine+Degradation+Data+Set.zip"
+URL = "https://phm-datasets.s3.amazonaws.com/NASA/6.+Turbofan+Engine+Degradation+Simulation+Data+Set.zip"
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / "data" / "cmapss"
 
